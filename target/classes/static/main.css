@@ -1,0 +1,20 @@
+.input {
+    
+    -fx-border-radius: 15;
+    -fx-border-color: #fafafa;
+    -fx-text-fill: #fafafa;
+    -fx-padding: 10 10;
+    -fx-background-color: #2b2b2b;
+
+}
+.button:hover {
+ -fx-translate-y: 5;
+}
+
+.input:focused {
+    -fx-border-color: blue;
+}
+
+.button:hover {
+    -fx-border-color: blue;
+}
